@@ -362,9 +362,11 @@ footer a:hover {
 }
 
 .cb-tip-button {
+	position: relative;
+	top: 7px;
 	display: inline-block;
 	width: 100px;
-	height: 20px;
+	height: 40px;
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
