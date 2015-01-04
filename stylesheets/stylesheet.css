@@ -116,8 +116,9 @@ a.button {
   font-size: 15px;
   padding: 12px 8px 12px 8px;
   display: block;
-  width: 179px;
-  margin-right: 14px;  
+  width: 100px;
+  float: left;
+  margin: 20px;  
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
@@ -146,7 +147,6 @@ a.button:hover {
 }
 
 a.button span {
-  padding-left: 50px;
   display: block;
   height: 23px;
 }
@@ -159,9 +159,6 @@ a.button span {
 }
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
-}
-#view-on-github {
-  margin-right: 0;
 }
 
 code, pre {
