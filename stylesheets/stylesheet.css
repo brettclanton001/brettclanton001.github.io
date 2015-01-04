@@ -361,6 +361,12 @@ footer a:hover {
   }
 }
 
+.cb-tip-button {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+}
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
