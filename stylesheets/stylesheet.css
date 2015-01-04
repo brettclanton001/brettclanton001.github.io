@@ -362,8 +362,6 @@ footer a:hover {
 }
 
 .cb-tip-button {
-	position: relative;
-	top: 7px;
 	display: inline-block;
 	width: 100px;
 	height: 40px;
